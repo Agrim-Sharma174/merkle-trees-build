@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol";
 contract Whitelist {
     bytes32 public merkleRoot;
 
-    constructot(bytes32 _merkleRoot) {
+    constructor(bytes32 _merkleRoot) {
         merkleRoot = _merkleRoot;
     }
 
